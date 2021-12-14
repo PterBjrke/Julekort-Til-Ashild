@@ -1,0 +1,64 @@
+#id1 {
+    position: relative;
+    bottom: 50%;
+}
+
+#id7 {
+    position: relative;
+    bottom: 50%;
+    
+}
+body {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style: inherit;
+}
+
+#id6 {
+    position:fixed;
+    left: 0%;
+    top:0%;
+    min-width: 100%;
+    min-height: 100%;
+    width:auto;
+    height: auto;
+}
+
+.id5 {
+    position:relative;
+}
+
+#id4 {
+    position:absolute;
+    transform: scale(75%);
+    z-index: 3;
+    animation: stjerne 10s linear infinite;
+}
+
+@keyframes stjerne {
+    0% {
+        right: -50%;
+        top: 1%;
+    }
+
+    25% {
+        right:-12.5%;
+        top: 5%;
+    }
+
+    50% {
+        right: 25%;
+        top: 10%;
+    }
+    
+    75% {
+        right: 62.5%;
+        top: 15%;
+    }
+
+    100% {
+        right: 100%;
+        top: 40%;
+    }
+}
